@@ -1,0 +1,32 @@
+.ban {
+  margin: 0px;
+  padding: 0px;
+  height: 1000vh;
+  text-align: center;
+}
+
+h1 {
+  font-variant: small-caps;
+  font-style: italic;
+  letter-spacing: 7px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+}
+
+p {
+  font-variant: small-caps;
+  font-style: italic;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+}
+
+.text {
+  margin-top: 200px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
