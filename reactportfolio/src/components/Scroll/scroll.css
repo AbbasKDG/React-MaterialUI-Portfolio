@@ -1,0 +1,10 @@
+.feet {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 30px;
+}
+
+button {
+  border-radius: 50%;
+}

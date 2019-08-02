@@ -1,7 +1,10 @@
 import React from "react";
 import "./App.css";
 import "typeface-roboto";
-import Banner from "./components/Banner/banner.js";
+import Banner from "./components/Banner/banner";
+import About from "./components/About/about";
+import Scroll from "./components/Scroll/scroll";
+import Projects from "./components/Projects/projects";
 
 // import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -12,6 +15,10 @@ const App = () => {
   return (
     <div>
       <Banner />
+
+      <About />
+      <Projects />
+      <Scroll />
 
       <br />
     </div>

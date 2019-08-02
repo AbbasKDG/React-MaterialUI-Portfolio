@@ -1,0 +1,39 @@
+.section {
+  height: 100vh;
+  background-color: rgb(152, 163, 216);
+  animation-name: glow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+  text-align: center;
+  font-variant: small-caps;
+  font-style: italic;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+@keyframes glow {
+  0% {
+    background-color: rgb(59, 145, 208);
+  }
+
+  50% {
+    background-color: rgb(160, 235, 243);
+  }
+
+  100% {
+    background-color: rgb(59, 145, 208);
+  }
+}
+
+.dPic {
+  border-radius: 50%;
+  width: 250px;
+  border-style: solid;
+}
+
+.hi {
+  padding: 15px;
+  margin: 15px;
+}
